@@ -78,7 +78,7 @@ class Neural_Network(object):
         np.savetxt("w1.txt", self.W1, fmt ="%s")
         np.savetxt("w2.txt", self.W2, fmt ="%s")
     def FileWeights(self, w1, w2):
-        v = "FUCK"
+        #v = self.W11,self.W22
         #"This is W1 from file: "+self.w1+"\nThis is w2 from file: "+ self.w2
         return v
     def ReturnV(self):
